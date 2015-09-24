@@ -16,4 +16,8 @@ gulp.task('clean', function(callback) {
   del('build/*', callback); 
 });
 
+gulp.task('watch', function() {
+  gulp.watch('img/**/*', ['minimizeImages']);
+});
+
 gulp.task('default', ['minimizeImages']);
