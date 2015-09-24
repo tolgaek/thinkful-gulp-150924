@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/tolgaek/thinkful-gulp-150924/issues"
   },
-  "homepage": "https://github.com/tolgaek/thinkful-gulp-150924#readme"
+  "homepage": "https://github.com/tolgaek/thinkful-gulp-150924#readme",
+  "dependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-imagemin": "^2.3.0"
+  }
 }
