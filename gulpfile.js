@@ -1,3 +1,5 @@
+
+
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
 
@@ -6,3 +8,5 @@ gulp.task('minimizeImages', function() {
     .pipe(imagemin())
     .pipe(gulp.dest('build'));
 });
+
+gulp.task('default', ['minimizeImages']);
